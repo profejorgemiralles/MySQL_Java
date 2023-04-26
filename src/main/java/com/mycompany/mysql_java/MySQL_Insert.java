@@ -21,6 +21,8 @@ public class MySQL_Insert {
             int rowsAffected = stmt.executeUpdate(deleteQuery);
             System.out.println(rowsAffected + " row(s) deleted.");
             
+            // Comment
+            
             conn.close();
         } catch (SQLException e) {
             System.err.println("Error: " + e.getMessage());
